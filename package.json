@@ -1,0 +1,30 @@
+{
+  "name": "japanese-anki-lynx",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "rspeedy build",
+    "dev": "rspeedy dev",
+    "preview": "rspeedy preview"
+  },
+  "dependencies": {
+    "@lynx-js/react": "^0.105.1",
+    "@react-navigation/native": "^7.0.15",
+    "@react-navigation/stack": "^7.1.2",
+    "react-native": "^0.72.6",
+    "react-native-safe-area-context": "^5.3.0",
+    "react-native-screens": "^4.9.2",
+    "react-router": "^6.30.0"
+  },
+  "devDependencies": {
+    "@lynx-js/qrcode-rsbuild-plugin": "^0.3.4",
+    "@lynx-js/react-rsbuild-plugin": "^0.9.1",
+    "@lynx-js/rspeedy": "^0.8.3",
+    "@lynx-js/types": "^3.2.0",
+    "@types/react": "^18.3.18",
+    "typescript": "~5.7.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
