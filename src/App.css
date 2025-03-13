@@ -1,6 +1,10 @@
 :root {
-  background-color: #000;
   --color-text: #fff;
+  --background: #393646;
+  --color-accent1: #4f4557;
+  --color-accent2: #6c5d6e;
+  --color-accent2: #f4eee0;
+  background-color: var(--background);
 }
 
 .Background {
