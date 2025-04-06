@@ -1,95 +1,95 @@
 .dashboard-container {
-    flex: 1;
-    background-color: var(--background-color);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  
-  .lesson-scrollview {
-    flex: 1;
-    width: 100%;
-    height: 100%;
-    padding: 20px 16px;
-  }
-  
-  .lesson-card {
-    background-color: var(--color-accent3);
-    border-radius: 10px;
-    padding: 16px;
-    margin-bottom: 16px;
-  }
-  
-  .lesson-header {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 16px;
-  }
-  
-  .icon-container {
-    margin-right: 12px;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .play-icon {
-    font-size: 24px;
-    color: var(--background-color);
-  }
-  
-  .lesson-info {
-    flex: 1;
-  }
-  
-  .lesson-title {
-    font-size: 18px;
-    font-weight: bold;
-    color: var(--background-color);
-    margin-bottom: 4px;
-  }
-  
-  .lesson-description {
-    font-size: 14px;
-    color: var(--color-accent2);
-    margin-bottom: 8px;
-  }
-  
-  .attempt-info {
-    margin-top: 4px;
-  }
-  
-  .attempt-text {
-    font-size: 12px;
-    color: var(--color-accent2);
-  }
-  
-  .next-study-text {
-    font-size: 12px;
-    color: var(--background-color);
-  }
-  
-  .start-button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color-accent1);
-    border-radius: 8px;
-    padding: 12px;
-  }
-  
-  .start-icon {
-    margin-right: 8px;
-    color: var(--color-accent3);
-    font-size: 20px;
-  }
-  
-  .start-text {
-    color: var(--color-accent3);
-    font-size: 16px;
-    font-weight: bold;
-  }
+  flex: 1;
+  background-color: var(--background-color);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.lesson-scrollview {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  padding: 20px 16px;
+}
+
+.lesson-card {
+  background-color: var(--color-accent3);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.lesson-header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.icon-container {
+  margin-right: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-icon {
+  font-size: 24px;
+  color: var(--background-color);
+}
+
+.lesson-info {
+  flex: 1;
+}
+
+.lesson-title{
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--background-color);
+  margin-bottom: 4px;
+}
+
+.lesson-description {
+  font-size: 14px;
+  color: var(--color-accent1);
+  margin-bottom: 8px;
+}
+
+.attempt-info {
+  margin-top: 4px;
+}
+
+.attempt-text {
+  font-size: 12px;
+  color: var(--color-accent2);
+}
+
+.next-study-text {
+  font-size: 12px;
+  color: var(--background-color);
+}
+
+.start-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-accent1);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.start-icon {
+  margin-right: 8px;
+  color: var(--color-accent3);
+  font-size: 20px;
+}
+
+.start-text {
+  color: var(--color-accent3);
+  font-size: 16px;
+  font-weight: bold;
+}

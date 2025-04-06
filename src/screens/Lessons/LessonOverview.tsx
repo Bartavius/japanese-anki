@@ -100,14 +100,14 @@ function LessonOverview() {
       >
         <NavBackButton />
         
-        <view className="lesson-header">
-          <text className="lesson-title">{lesson.title}</text>
+        <view className="lesson-overview-header">
+          <text className="lesson-overview-title">{lesson.title}</text>
           <text className="lesson-subtitle">{lesson.subtitle}</text>
         </view>
 
         <view className="lesson-description-section">
           <text className="description-label">Description:</text>
-          <text className="lesson-description">{lesson.description}</text>
+          <text className="lesson-overview-description">{lesson.description}</text>
         </view>
 
         <view className="divider"></view>

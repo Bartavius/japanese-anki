@@ -17,11 +17,11 @@
     padding: 20px;
   }
   
-  .lesson-header {
+  .lesson-overview-header {
     margin-bottom: 24px;
   }
   
-  .lesson-title {
+  .lesson-overview-title {
     color: var(--color-accent3);
     font-size: 20px;
     font-weight: normal;
@@ -46,7 +46,7 @@
     margin-bottom: 8px;
   }
   
-  .lesson-description {
+  .lesson-overview-description {
     color: var(--color-accent3);
     font-size: 16px;
     line-height: 1.5;

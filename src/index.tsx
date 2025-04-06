@@ -1,6 +1,5 @@
 import { root } from '@lynx-js/react'
-
-import App from './App.js'
+import './App.css';
 import { MemoryRouter, Route, Routes } from 'react-router'
 import HomeScreen from './screens/testscreens/HomeScreen.jsx'
 import { Template } from './Template.jsx'
