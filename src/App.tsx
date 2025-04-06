@@ -2,7 +2,7 @@
 import './App.css'
 import { useNavigate } from 'react-router'
 
-export function App() {
+export default function App() {
   const nav = useNavigate();
 
   return (
