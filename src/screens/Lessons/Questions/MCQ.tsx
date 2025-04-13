@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router';
 import './MCQ.css';
+import NavBackButton from '../../../assets/components/NavBackButton.jsx';
 
 interface Choice {
   id: number;
@@ -81,6 +82,7 @@ function MCQ() {
 
   return (
     <view className="multiple-choice-container">
+        <NavBackButton />
       {/* Question Section */}
       <view className="question-section">
         <view className="question-content">

@@ -1,0 +1,110 @@
+.text-input-container {
+    flex: 1;
+    background-color: var(--background-color);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  /* Question Prompt */
+  .prompt-section {
+    background-color: var(--color-accent3);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .prompt-text {
+    font-size: 18px;
+    color: var(--background-color);
+    display: block;
+    text-align: center;
+  }
+  
+  /* Answer Input */
+  .answer-section {
+    background-color: var(--color-accent3);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .answer-input {
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid var(--color-accent2);
+    background-color: var(--color-accent3);
+    color: var(--background-color);
+  }
+  
+  /* Buttons */
+  .submit-button, .continue-button {
+    background-color: var(--color-accent1);
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-text {
+    color: var(--color-accent3);
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  /* Feedback */
+  .feedback-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .feedback-text {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .feedback-text.correct {
+    background-color: rgba(111, 207, 151, 0.2);
+    color: #6FCF97;
+  }
+  
+  .feedback-text.incorrect {
+    background-color: rgba(235, 87, 87, 0.2);
+    color: #EB5757;
+  }
+  
+  /* Loading */
+  .loading {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+  }
+  
+  .loading text {
+    color: var(--color-accent3);
+    font-size: 18px;
+    display: block;
+  }

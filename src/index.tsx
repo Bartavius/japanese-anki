@@ -18,6 +18,7 @@ root.render(
     <Route path="/dashboard" element={<Dashboard />} />
     <Route path="/lesson/:lessonId" element={<LessonOverview />} />
     <Route path="/lesson/:lessonId/quiz" element={<MCQ />} />
+    <Route path="/lesson/:lessonId/quiz/:qId" element={<MCQ />} /> {/* maybe query instead? */}
   </Routes>
 </MemoryRouter>,)
 
