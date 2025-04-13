@@ -82,7 +82,7 @@ function LessonOverview() {
 
   const handleTakeQuiz = () => {
     if (lesson) {
-      navigate(`/quiz/${lesson.id}`);
+      navigate(`/lesson/${lesson.id}/quiz`);
     }
   };
 
